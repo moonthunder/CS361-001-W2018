@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+%\usepackage{times}
+\usepackage{cite}
+%this is a comment
+\title{Vision Statement - Automatic Brakes}
+\author{Amar Raad(raadv) and Andrew Snow(snowan)}
+
+
+\begin{document}
+	
+\maketitle
+
+
+\tableofcontents
+
+
+\section{Problem}
+Whenever we get into our vehicles and head out onto the roads, we rely on the rules of the road to keep us safe. Unfortunately we can sometimes become distracted and disaster can be the result. According to IIHS news, “each year more than 800 people die and an estimated 200,000-plus are injured in crashes that involve red light running. ()” Each of us have seen others or perhaps even have ran red lights ourselves. Such actions can put our lives, as well as other lives in danger, or can result in a nasty ticket. In a day an age where car’s can assist your driving with lane detection and apply breaks before hitting a car in front of you, wouldn’t it be nice if there was a way to force the breaks before running the red.
+\section{Solution}
+We propose using various sensors and magnetic fields used by traffic lights to pinpoint how far the car is from the intersection, enforcing cars to automatically stop when the light turns red and simultaneously preventing collision.
+\subsection{Solution Expanded}
+In order to help cars to determine if the light is red, a signal would have to be sent out at appropriate times, and in the appropriate lanes, for an on board car computer to pick up. This can be done through a central hub at each intersection. Cars would also need a way of knowing how far away from the intersection it is. Using various sensors, like the ones used to prevent you from hitting a car in front of you, and using the magnetic fields that traffic lights use to determine that you are there, can help pinpoint how far the car is from the intersection. Using GPS can also help locate which lane the car is in. There are many different methods that this can be achieved. Further testing would show what would work best.
+\section{Risks and Challenges}
+\subsection{Risks}
+\begin{itemize}
+	\item Failure to establish and secure a proper connection between cars and traffic lights may result in collisions and perhaps even death.  
+	\item Malfunctioning of software may send an inaccurate signal between cars and traffic lights.
+	\item Incorrect scan of lanes may result in braking when not required.
+\end{itemize}
+\subsection{Challenges}
+\begin{itemize}
+	\item All cars on the road would require having Automatic Brakes installed and correctly functioning to sync properly with traffic.
+	\item Scans made of a car's lane position in correspondence with the traffic light signal must be correct/accurate.
+	\item Occasions when traffic lights are out of service may interfere with the program's functionality.
+\end{itemize}
+\section{Features}
+Traffic lights rely on magnetic fields to determine whether a car is waiting and also use timers to alternate which lanes are allowed to go. When a light turns red, depending on a car's speed and location will determine whether it is safe to stop and enforce it.
+\begin{itemize}
+	\item Establish a communication between the car and the intersection lights.
+	\item When the light is red, send out signals that cars can receive.
+\end{itemize}
+\section{Limitations}
+The program will need to have compatibility with all cars driving in traffic. Some older car models may need upgrades/modifications to be eligible candidates for the software.
+\section{Resources}
+Use of a traffic lights magnetic fields in addition to GPS navigation, timers, and car position/location are all essential to sending and receiving accurate data. Additional sensors on roads and on cars may need to be installed as well.
+\section{Benefits}
+\begin{itemize}
+	\item This program has the potential to save lives.
+	\item Running a red light can result in a ticket costing anywhere from 50 to 500 dollars.~\cite{redlight2010software}
+	\item According to IIHS News, “Each year more than 800 people die and an estimated 200,000-plus are injured in crashes that involve red light running.”~\cite{800deaths2000software}
+\end{itemize}
+\section{Conclusion}
+With the proposed solution of incorporating automatic brakes into cars to be synced with red traffic lights, driving will become much safer. The application must be accurately implemented to avoid rick of malfunctions and potential collisions/accidents. Along with accurate coding, the software will need to be installed in all participating vehicles. With success, Automatic Brakes will bring benefits such as avoiding potential collisions and saving lives.
+
+
+\bibliography{myref}
+\bibliographystyle{plain}
+
+\end{document}

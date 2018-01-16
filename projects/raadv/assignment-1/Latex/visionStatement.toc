@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Problem}{1}
+\contentsline {section}{\numberline {2}Solution}{2}
+\contentsline {subsection}{\numberline {2.1}Solution Expanded}{2}
+\contentsline {section}{\numberline {3}Risks and Challenges}{2}
+\contentsline {subsection}{\numberline {3.1}Risks}{2}
+\contentsline {subsection}{\numberline {3.2}Challenges}{3}
+\contentsline {section}{\numberline {4}Features}{3}
+\contentsline {section}{\numberline {5}Limitations}{3}
+\contentsline {section}{\numberline {6}Resources}{3}
+\contentsline {section}{\numberline {7}Benefits}{4}
+\contentsline {section}{\numberline {8}Conclusion}{4}
